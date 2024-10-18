@@ -1,8 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Itim&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
 :root{ 
-    /* CSS HEX */
 --branco: #cad2c5ff;
 --verde-claro: #84a98cff;
 --verde: #52796fff;
 --cinza: #354f52ff;
 --cinza-escuro: #2f3e46ff;
+--fonte-titulo:"EB Garamond", serif;
+--fonte-texto:"Noto Serif Oriya", serif;
+}
+
+body{
+    background-color:var(--cinza-escuro) ;
+    font-family: var(--fonte-texto);
+}
+
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-items: space-between;
+    background-color: var(--cinza-escuro);
+}
+
+.cabecalho-logo{
+    width: 10%;
+    border-radius: 100%;
+    padding: lem;
+}
+
+.cabecalho-link{
+    text-decoration: none;
+    color: var(--verde-claro);
+    font-size: 2em;
+    margin-right: 1em;
+}
+.cabecalho-link:houver{
+     color: var(--verde);
+     font-size: 1.9em;
+     transition: 0.3s;
 }
